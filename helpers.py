@@ -11,3 +11,10 @@ def double(n):
         return 2 * n
     else:
         return "ERROR"
+
+
+def halve(n):
+    if type(n) == int:
+        return n / 2
+    else:
+        return "ERROR"
